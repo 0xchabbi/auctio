@@ -9,7 +9,10 @@ Eine erste visuelle Umsetzung der Auctio-Plattform auf Basis der zuvor definiert
 
 ## Nutzung
 
-1. Öffne `prototype/index.html` direkt in deinem Browser oder über ein Live-Server-Plugin in deinem Editor.
+1. Öffne `prototype/index.html` direkt in deinem Browser:
+   - **macOS/Windows:** Doppelklick auf die Datei oder Rechtsklick → „Öffnen mit…“ → Lieblingsbrowser.
+   - **VS Code:** Datei im Explorer markieren → Rechtsklick → „Open with Live Server" (falls Erweiterung installiert).
+   - **Terminal (Alternative):** Wechsle in den Ordner `prototype` und starte `python3 -m http.server 8080`. Anschließend `http://localhost:8080/index.html` im Browser öffnen.
 2. Passe Texte und Bild-URLs an reale Auktionen an, um realitätsnahe Präsentationen zu zeigen.
 3. Übernehme Komponenten und Tokens in dein Figma-Projekt, um weitere Screens (z. B. Auktion-Detail, Checkout) zu gestalten.
 
