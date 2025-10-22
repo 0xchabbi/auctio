@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auctio – Entdecke besondere Auktionen aus Österreich</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="logo">Auctio</div>
+        <nav class="main-nav" aria-label="Hauptnavigation">
+          <a href="#trending">Top-Auktionen</a>
+          <a href="#categories">Kategorien</a>
+          <a href="#trust">Sicherheit</a>
+          <a href="#app">App</a>
+        </nav>
+        <div class="actions">
+          <a class="ghost" href="#login">Anmelden</a>
+          <a class="cta" href="#signup">Jetzt verkaufen</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-flow" aria-hidden="true">
+          <span class="orb orb-1"></span>
+          <span class="orb orb-2"></span>
+          <span class="orb orb-3"></span>
+          <span class="hero-veil"></span>
+        </div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1 id="hero-title">
+              Auktionsfieber <span class="hero-highlight">made in Austria</span>
+            </h1>
+            <p>
+              Kuratiere deine Highlights, sieh Live-Gebote in Echtzeit und lass sich Käufer:innen
+              durch Storytelling und Trusted Payments verlieben – alles in einem flüssigen, adaptiven
+              Erlebnis, das wie dein dynamischer Content mitvibriert.
+            </p>
+            <div class="hero-tags" aria-label="Beliebte Kategorien">
+              <span>Design &amp; Art</span>
+              <span>Premium Technik</span>
+              <span>Rare Collectibles</span>
+              <span>Charity Drops</span>
+            </div>
+            <div class="hero-actions">
+              <a class="cta" href="#signup">Jetzt lossteigern</a>
+              <button class="ghost" type="button">Live-Demo ansehen</button>
+            </div>
+            <ul class="hero-stats" aria-label="Nutzerstatistiken">
+              <li>
+                <span class="value">+140k</span>
+                <span class="label">aktive Bieter:innen</span>
+              </li>
+              <li>
+                <span class="value">4.9 ★</span>
+                <span class="label">Verkäufer:innen-Zufriedenheit</span>
+              </li>
+              <li>
+                <span class="value">68h</span>
+                <span class="label">Ø Verkaufsdauer</span>
+              </li>
+            </ul>
+          </div>
+          <div class="hero-preview" role="presentation">
+            <div class="floating-lot lot-a" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=200&q=80" alt="Luxusuhr" />
+              <div>
+                <span>Live jetzt</span>
+                <strong>Rolex Submariner</strong>
+                <em>Gebote ab € 6.800</em>
+              </div>
+            </div>
+            <div class="floating-lot lot-b" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=200&q=80" alt="Skulptur" />
+              <div>
+                <span>Heute 20:00</span>
+                <strong>Atelier Skulptur</strong>
+                <em>Kuratiert von Aurum</em>
+              </div>
+            </div>
+            <div class="card spotlight">
+              <div class="card-media">
+                <div class="badge badge-live">Live</div>
+                <img src="https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?auto=format&fit=crop&w=800&q=80" alt="Vintage Kamera" />
+              </div>
+              <div class="card-body">
+                <div class="card-meta">
+                  <span class="chip">Vintage</span>
+                  <span class="chip">Fotografie</span>
+                </div>
+                <h2>Leica M3 – Erstauflage</h2>
+                <p>Startpreis € 1.200 · Ende in 02:18:44</p>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 68%"></div>
+                </div>
+                <div class="card-footer">
+                  <span class="price">€ 1.860</span>
+                  <button class="cta tertiary" type="button">Jetzt mitbieten</button>
+                </div>
+              </div>
+            </div>
+            <div class="card mini">
+              <div>
+                <p class="label">Frisch gelandet</p>
+                <h3>Design-Klassiker
+                  <span>40 neue Auktionen</span>
+                </h3>
+              </div>
+              <button class="ghost" type="button">Alle ansehen</button>
+            </div>
+          </div>
+        </div>
+        <div class="hero-ticker" aria-hidden="true">
+          <div class="ticker-track">
+            <span class="ticker-item">Kuratiert für Österreich</span>
+            <span class="ticker-item">Live-Bietduelle</span>
+            <span class="ticker-item">Verifizierte Verkäufer:innen</span>
+            <span class="ticker-item">Treuhand-Zahlungen</span>
+            <span class="ticker-item">Abholung &amp; Versand geplant</span>
+            <span class="ticker-item">Premium-Events jedes Wochenende</span>
+            <span class="ticker-item">Kuratiert für Österreich</span>
+            <span class="ticker-item">Live-Bietduelle</span>
+            <span class="ticker-item">Verifizierte Verkäufer:innen</span>
+            <span class="ticker-item">Treuhand-Zahlungen</span>
+            <span class="ticker-item">Abholung &amp; Versand geplant</span>
+            <span class="ticker-item">Premium-Events jedes Wochenende</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="trending" class="section" aria-labelledby="trending-title">
+        <div class="container">
+          <div class="section-heading">
+            <h2 id="trending-title">Trendende Auktionen</h2>
+            <a class="link" href="#">Zur gesamten Übersicht</a>
+          </div>
+          <div class="card-grid">
+            <article class="auction-card">
+              <div class="image-wrapper">
+                <img src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=600&q=80" alt="Mid-Century Lounge Chair" />
+                <span class="badge badge-time">Endet in 01:05:12</span>
+              </div>
+              <div class="auction-content">
+                <h3>Mid-Century Lounge Chair</h3>
+                <p>Klagenfurt · Startpreis € 480</p>
+                <div class="auction-footer">
+                  <span class="price">Aktuell € 620</span>
+                  <button class="ghost" type="button">Details</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="auction-card">
+              <div class="image-wrapper">
+                <img src="https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?auto=format&fit=crop&w=600&q=80" alt="Limitierte Vinyl Sammlung" />
+                <span class="badge badge-time">Endet in 04:29:55</span>
+              </div>
+              <div class="auction-content">
+                <h3>Limitierte Vinyl Sammlung</h3>
+                <p>Wien · Startpreis € 90</p>
+                <div class="auction-footer">
+                  <span class="price">Aktuell € 210</span>
+                  <button class="ghost" type="button">Details</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="auction-card">
+              <div class="image-wrapper">
+                <img src="https://images.unsplash.com/photo-1512427691650-1e0c3f34c63a?auto=format&fit=crop&w=600&q=80" alt="Handgefertigte Keramik" />
+                <span class="badge badge-time">Endet in 08:13:22</span>
+              </div>
+              <div class="auction-content">
+                <h3>Handgefertigte Keramik</h3>
+                <p>Graz · Startpreis € 45</p>
+                <div class="auction-footer">
+                  <span class="price">Aktuell € 102</span>
+                  <button class="ghost" type="button">Details</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="categories" class="section" aria-labelledby="categories-title">
+        <div class="container">
+          <div class="section-heading">
+            <h2 id="categories-title">Beliebte Kategorien</h2>
+            <p>Entdecke ausgewählte Schätze von lokalen Anbieter:innen.</p>
+          </div>
+          <div class="pill-grid" role="list">
+            <button class="pill" role="listitem">Design &amp; Möbel</button>
+            <button class="pill" role="listitem">Kunst &amp; Prints</button>
+            <button class="pill" role="listitem">Technik &amp; Gadgets</button>
+            <button class="pill" role="listitem">Mode &amp; Accessoires</button>
+            <button class="pill" role="listitem">Sammelobjekte</button>
+            <button class="pill" role="listitem">Wein &amp; Kulinarik</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split" aria-labelledby="trust-title" id="trust">
+        <div class="container split-grid">
+          <div>
+            <h2 id="trust-title">Vertrauen durch Transparenz</h2>
+            <p>
+              Sicherheit steht bei Auctio im Mittelpunkt. Jede:r Verkäufer:in wird geprüft,
+              Zahlungen laufen über Treuhand, und unsere Community vergibt nachvollziehbares
+              Feedback.
+            </p>
+            <ul class="feature-list">
+              <li>
+                <h3>Sofortige Identitätsprüfung</h3>
+                <p>Digitaler Ausweis-Check nach KYC-Standard innerhalb weniger Minuten.</p>
+              </li>
+              <li>
+                <h3>Treuhand &amp; Käuferschutz</h3>
+                <p>Geld wird erst nach erfolgreicher Übergabe freigegeben – garantiert.</p>
+              </li>
+              <li>
+                <h3>Live-Moderation</h3>
+                <p>Unsere Hosts begleiten Premium-Auktionen und sorgen für Fairness.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="card trust-card">
+            <h3>Trust Score von Verkäufer:innen</h3>
+            <p>Transparente Historie schafft Sicherheit.</p>
+            <div class="score-meter">
+              <div class="score-value">92</div>
+              <div class="score-bar">
+                <div class="score-progress" style="width: 92%"></div>
+              </div>
+              <p class="score-label">Verlässlich · 86 Verkäufe · 0 Konflikte</p>
+            </div>
+            <div class="review">
+              <strong>"Ablauf war top organisiert."</strong>
+              <p>– Verifizierte Käuferin aus Linz</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonials" aria-labelledby="testimonials-title">
+        <div class="container">
+          <div class="section-heading">
+            <h2 id="testimonials-title">Community-Stimmen</h2>
+            <p>Erfahrungen, die Vertrauen schaffen.</p>
+          </div>
+          <div class="testimonials-grid">
+            <figure>
+              <blockquote>
+                „Ich habe innerhalb von 48 Stunden einen Käufer gefunden – die geführte
+                Listing-Hilfe spart enorm Zeit.“
+              </blockquote>
+              <figcaption>
+                <span class="name">Martina, Wien</span>
+                <span class="role">Vintage-Sellerin</span>
+              </figcaption>
+            </figure>
+            <figure>
+              <blockquote>
+                „Dank der Live-Bietduelle bleibt die Spannung bis zum Schluss. Und die App
+                erinnert mich pünktlich.“
+              </blockquote>
+              <figcaption>
+                <span class="name">Thomas, Salzburg</span>
+                <span class="role">Sammler</span>
+              </figcaption>
+            </figure>
+            <figure>
+              <blockquote>
+                „Verifizierte Händler:innen und sichere Zahlungen – fühlt sich besser an als
+                klassische Kleinanzeigen.“
+              </blockquote>
+              <figcaption>
+                <span class="name">Ana, Graz</span>
+                <span class="role">Designliebhaberin</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section app" id="app" aria-labelledby="app-title">
+        <div class="container app-grid">
+          <div class="device-mock">
+            <div class="phone-frame">
+              <div class="status-bar"></div>
+              <div class="phone-screen">
+                <div class="phone-header">
+                  <span class="logo">A</span>
+                  <span class="timer">01:12:03</span>
+                </div>
+                <div class="phone-card">
+                  <span class="badge badge-live">Live Auktion</span>
+                  <h3>Kristallglas-Set 60s</h3>
+                  <p>Aktuell € 180 • 12 Gebote</p>
+                  <button class="cta" type="button">Gebot abgeben</button>
+                </div>
+                <div class="phone-cta">
+                  <p>Smart Alerts halten dich am Laufenden.</p>
+                  <button class="ghost" type="button">Benachrichtigungen aktivieren</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="app-copy">
+            <h2 id="app-title">Überall dabei – mit der Auctio App</h2>
+            <p>
+              Biete live mit, sichere dir Lieblingsstücke mit Auto-Bid oder tracke deine
+              Verkäufe in Echtzeit. Für iOS und Android optimiert, inklusive Dark Mode.
+            </p>
+            <div class="download-buttons">
+              <a class="store ios" href="#">Im App Store</a>
+              <a class="store android" href="#">Bei Google Play</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo">Auctio</div>
+          <p>Die Plattform für besondere Auktionen aus Österreich.</p>
+        </div>
+        <div>
+          <h3>Service</h3>
+          <ul>
+            <li><a href="#">Hilfe &amp; Support</a></li>
+            <li><a href="#">Gebühren</a></li>
+            <li><a href="#">Verkäufer:innen-Leitfaden</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Rechtliches</h3>
+          <ul>
+            <li><a href="#">AGB</a></li>
+            <li><a href="#">Datenschutz</a></li>
+            <li><a href="#">Impressum</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Bleib informiert</h3>
+          <form class="newsletter" aria-label="Newsletter">
+            <label for="newsletter-email" class="sr-only">E-Mail Adresse</label>
+            <input id="newsletter-email" type="email" placeholder="E-Mail" required />
+            <button class="cta" type="submit">Abonnieren</button>
+          </form>
+        </div>
+      </div>
+      <p class="footer-note">© 2024 Auctio. Made in Österreich.</p>
+    </footer>
+  </body>
+</html>
