@@ -5,7 +5,7 @@ Eine erste visuelle Umsetzung der Auctio-Plattform auf Basis der zuvor definiert
 ## Inhalte
 
 - `index.html` – High-Fidelity-Landing-Page mit Hero-Bereich, kuratierten Auktionen, Vertrauenssignalen und App-Preview.
-- `styles.css` – Farbsystem, Typografie und Komponenten-Styling inklusive Grid-, Card-, Badge- und CTA-Varianten.
+- `styles.css` – Helles, modulares Farbsystem mit adaptiven Komponenten (Grid, Cards, Badges, CTA) für dynamisch befüllte Auktionen.
 
 ## Nutzung
 
