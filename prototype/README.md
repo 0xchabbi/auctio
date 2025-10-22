@@ -5,7 +5,8 @@ Eine erste visuelle Umsetzung der Auctio-Plattform auf Basis der zuvor definiert
 ## Inhalte
 
 - `index.html` – High-Fidelity-Landing-Page mit Hero-Bereich, kuratierten Auktionen, Vertrauenssignalen und App-Preview.
-- `styles.css` – Helles, modulares Farbsystem mit adaptiven Komponenten (Grid, Cards, Badges, CTA) für dynamisch befüllte Auktionen.
+- `styles.css` – Helles, aurena-inspiriertes Farbsystem mit gelb-violetten Gradients, schwebenden Cards und adaptiven Komponenten (Grid, Badges, CTA) für dynamisch befüllte Auktionen.
+- Micro-Interactions wie driftende Live-Lots, tickernde Trust-Badges und adaptive Glassmorphism-Flächen für mehr Tempo im Hero.
 
 ## Nutzung
 
